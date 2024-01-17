@@ -262,7 +262,7 @@ Crontab is a program for UNIX systems that allows a specific set of commands to 
 
 `sudo touch monitoring.sh`: creates the file where we will write our script
 
-`sudo chmod 777 monitoring.sh`: grants executable permissions to every user to the file that we just created
+`sudo chmod 744 monitoring.sh`: grants executable permissions to every user to the file that we just created
 
 after that you can go ahead and copy this code to the file 
 
